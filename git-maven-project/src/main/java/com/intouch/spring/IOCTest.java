@@ -11,5 +11,6 @@ public class IOCTest {
         ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
         Date now=(Date)context.getBean("now");
         System.out.println("Now is "+ now );
+        System.out.println("update 1"+ now );
     }
 }
