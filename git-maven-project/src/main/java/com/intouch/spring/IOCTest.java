@@ -13,6 +13,7 @@ public class IOCTest {
         System.out.println("Now is "+ now );
         System.out.println("update 1"+ now );
         System.out.println("update 2"+ now );
+        System.out.println("dev1 update 1"+ now );
         System.out.println("master update 1"+ now );
 
     }
